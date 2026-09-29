@@ -1,0 +1,20 @@
+Notes:
+For venv version after 3.13, the .venv automatically generated the .gitignore file inside so you do not have to worry about excluding those environment packages manually when using git.  
+
+## Basics
+# Create python environment through following command
+python3 -m venv <env name>.venv
+
+#execute the environment
+source <env name>/bin/activate
+
+# find out installed packages 
+pip list
+
+# Exit the environment 
+typing deactivate in cmd
+
+
+## Create projects with vscode
+- source the env
+- go to the folder of your project and turn on vscode code.
