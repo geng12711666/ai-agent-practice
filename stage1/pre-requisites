@@ -1,2 +1,10 @@
 For using Ollama local LLM (no fee) for exercises:
+- download Ollama through: curl -fsSL https://ollama.com/install.sh | sh
+- pip install openai
+- ollama pull gemma4:e4b
 - 
+
+
+For using claude 
+- pip install anthropic
+- Acquire your ANTHROPIC_API_KEY
